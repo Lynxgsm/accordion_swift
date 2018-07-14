@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAE404A02FF4EBE550B3153BF8E291 /* DropDown.swift */; };
+		04074331FB4A3067AF5D02072E4F22BE /* Pods-accordion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F430EA01C077C7B13BD96AC981B1C /* Pods-accordion-dummy.m */; };
+		098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B98517AAE5C8402966B29E502D6D40F /* DropDownCell.swift */; };
+		0F94205BAD67CBFEEB1029A947EA26AB /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D919A7B32F8301735B45AE0AECE6 /* YoshikoTextField.swift */; };
+		16F1B33A5110E37D2BECA69CBF4DA5E6 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B3356008F7DBA02F8F251C8A83E92F /* YokoTextField.swift */; };
+		190F884F15EBF6A2E7716CD865918AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2366C723A4273EA1D9611C4C05D2E937 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265DEE91CA3D976AFF7449B827B957D6 /* HoshiTextField.swift */; };
+		2BD807DFD9E43669A7E74BC14E131FA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2E7E74DF0C455B0BC43BFDD1D0163E64 /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1CDC0F887D23C9BCABCA9DDE612340 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C293AEA575D6E5186739D1B07805F2 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4C83ADEB94A1BAF392E4B535D42AA9 /* DropDownCell.xib */; };
+		435650581EB85555AFBF86C9B2097993 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 546A12F1A117FB3C759707B989F6053C /* TextFieldEffects-dummy.m */; };
+		442ADADA3215E1E5CA1557E708D4228C /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C495FD370D8BDB3F5CFE8C16448DD10 /* DropDown+Appearance.swift */; };
+		4C3964C74D3DCE78D48C7F3EF0D47387 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF598EB437DD5D170D7770742A1A93 /* JiroTextField.swift */; };
+		7A6AB4B7D874484D456ACBC635DCADF4 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06B9AC336AA57BAB7F90BE0A0BE2A5E /* TextFieldEffects.swift */; };
+		906399E4317BC6501F2DE30B980678CB /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48018454215A0E8D3CC59714532B3F /* MadokaTextField.swift */; };
+		9D0221E27E37CDA9DF26DD3CFA56D75B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42989FAD5E28E44E0042AC2441DC9301 /* DPDKeyboardListener.swift */; };
+		A401CF18D15DF246F40FAC4E8F06CBC7 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9B4B4EF3DD64DA5CBD439895679F7 /* DPDUIView+Extension.swift */; };
+		A812E7811821F66B3B7499F6F1B513BA /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE9697DB7001388B4506BFA7FBE0EA /* DPDConstants.swift */; };
+		AA6960431A9BD9F6131247506D328494 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7942771D10B67BA4A571426AF493D6 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC6581D9387744158B44BE683403C3BC /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9147E49492EE6796687AEDE0409998A /* DropDown-dummy.m */; };
+		AEC592BEBBB4521BBCEF783EA16D9BFE /* Pods-accordion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E650D07F429389D6DE6EB1D712E6D7 /* Pods-accordion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5BCFA2D1D298B7B887C1A055FBA37B /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D011490B708F5647CE5E4E8C50EDA67 /* AkiraTextField.swift */; };
+		E55BF7E6266CEE7D792BB520BB0664E5 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F82E62A1B0D008A80D1793BB0F761E0 /* KaedeTextField.swift */; };
+		E5BA237CA30B5B01373DAD85F9315538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		ECFDCFFAFCDA7F7CE4CC47D1C26FAC96 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51077BCD9EAE1F4F302C34FF7284ED /* IsaoTextField.swift */; };
+		F088583D8C1DB258CEF56B56BB12A313 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A921F4255F0308D0DAB7F534EC68597E /* MinoruTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D6C400B49784F1603502B1F6EF59D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5168099F2EBFC99A707C03C9EADE01A5;
+			remoteInfo = DropDown;
+		};
+		F00829C17C2BB5193FC621D2EFAC3945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6957D3E66F8E6F72EC88BCAE74219791;
+			remoteInfo = TextFieldEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0010DCF0E294FE60D9260A8C87DE6771 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		03AAAE7004E60368DE764FA23E0F43A0 /* Pods-accordion-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-accordion-acknowledgements.plist"; sourceTree = "<group>"; };
+		199DA470137A527D3E6655D5703D15C1 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		1D5F430EA01C077C7B13BD96AC981B1C /* Pods-accordion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-accordion-dummy.m"; sourceTree = "<group>"; };
+		265DEE91CA3D976AFF7449B827B957D6 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		2E1137C499A6CC1904988809A94149C7 /* Pods-accordion-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-accordion-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3094A2EF8F37C3F4E5C75CC3041D8480 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C51077BCD9EAE1F4F302C34FF7284ED /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		3D011490B708F5647CE5E4E8C50EDA67 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		3D4310EEC0C0BB350542527B965DF1A9 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42989FAD5E28E44E0042AC2441DC9301 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		49F7620345E3D4338FADCC9335E2F7BB /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		4C4C83ADEB94A1BAF392E4B535D42AA9 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		546A12F1A117FB3C759707B989F6053C /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		560FAA1C134C09FB064EB08EEF5D2043 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D1CDC0F887D23C9BCABCA9DDE612340 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		6185803102326C0BF2B05F8D1312AE8C /* Pods-accordion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accordion.debug.xcconfig"; sourceTree = "<group>"; };
+		63DE9697DB7001388B4506BFA7FBE0EA /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		69EE3BD3F00A5A7D93812366B26F2681 /* Pods-accordion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accordion.release.xcconfig"; sourceTree = "<group>"; };
+		6B98517AAE5C8402966B29E502D6D40F /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		757E7DF80771EC121D25ADF971BA40F6 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		7920C52B987CE1AC1F79C5F13B37C165 /* Pods-accordion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-accordion.modulemap"; sourceTree = "<group>"; };
+		7E103EED42B0D1157DC462427CFBE6AB /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F82E62A1B0D008A80D1793BB0F761E0 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		82B3356008F7DBA02F8F251C8A83E92F /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		86EF598EB437DD5D170D7770742A1A93 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		87F9B4B4EF3DD64DA5CBD439895679F7 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E650D07F429389D6DE6EB1D712E6D7 /* Pods-accordion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-accordion-umbrella.h"; sourceTree = "<group>"; };
+		9C495FD370D8BDB3F5CFE8C16448DD10 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		9D9828D1436F881067E6BD414C5AB122 /* Pods-accordion-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accordion-resources.sh"; sourceTree = "<group>"; };
+		A56664D9A1320FA60BA728173F89265D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D29ABD4A7C137F3D82CC7FBD85D30C /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		A8A365B38670C290A772385429FA8FD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A921F4255F0308D0DAB7F534EC68597E /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		AB7942771D10B67BA4A571426AF493D6 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		ACDAE404A02FF4EBE550B3153BF8E291 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		B7F0406F072F765E3BA3C387A341CBF0 /* Pods_accordion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_accordion.framework; path = "Pods-accordion.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06B9AC336AA57BAB7F90BE0A0BE2A5E /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		C4C1D919A7B32F8301735B45AE0AECE6 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		CE48018454215A0E8D3CC59714532B3F /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		D9147E49492EE6796687AEDE0409998A /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		E14E5DBCA3854E37E53EF315B6DA1250 /* Pods-accordion-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accordion-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE28484C632D94C9779E4E74AE0BD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BA237CA30B5B01373DAD85F9315538 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D98BA38323A343989A5D6985F979F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD807DFD9E43669A7E74BC14E131FA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2E1D77FE081859FB796BC998F3959B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190F884F15EBF6A2E7716CD865918AF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03174AA10550613D52632A7B96D05BAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8A365B38670C290A772385429FA8FD2 /* Info.plist */,
+				560FAA1C134C09FB064EB08EEF5D2043 /* TextFieldEffects.modulemap */,
+				757E7DF80771EC121D25ADF971BA40F6 /* TextFieldEffects.xcconfig */,
+				546A12F1A117FB3C759707B989F6053C /* TextFieldEffects-dummy.m */,
+				199DA470137A527D3E6655D5703D15C1 /* TextFieldEffects-prefix.pch */,
+				AB7942771D10B67BA4A571426AF493D6 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		12132A7BDAFEDBF33552D358D675D802 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E973555308035F0CCF55E04103639675 /* Pods-accordion */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		36CAB5BAE57723549B8A331CD0E4D73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E103EED42B0D1157DC462427CFBE6AB /* DropDown.framework */,
+				B7F0406F072F765E3BA3C387A341CBF0 /* Pods_accordion.framework */,
+				3D4310EEC0C0BB350542527B965DF1A9 /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6395993C45BA99DB6A55497C2CCBB0B7 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				3D011490B708F5647CE5E4E8C50EDA67 /* AkiraTextField.swift */,
+				265DEE91CA3D976AFF7449B827B957D6 /* HoshiTextField.swift */,
+				3C51077BCD9EAE1F4F302C34FF7284ED /* IsaoTextField.swift */,
+				86EF598EB437DD5D170D7770742A1A93 /* JiroTextField.swift */,
+				7F82E62A1B0D008A80D1793BB0F761E0 /* KaedeTextField.swift */,
+				CE48018454215A0E8D3CC59714532B3F /* MadokaTextField.swift */,
+				A921F4255F0308D0DAB7F534EC68597E /* MinoruTextField.swift */,
+				C06B9AC336AA57BAB7F90BE0A0BE2A5E /* TextFieldEffects.swift */,
+				82B3356008F7DBA02F8F251C8A83E92F /* YokoTextField.swift */,
+				C4C1D919A7B32F8301735B45AE0AECE6 /* YoshikoTextField.swift */,
+				03174AA10550613D52632A7B96D05BAE /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B8298EF88190A4CA6A37011694A5C17B /* Pods */,
+				36CAB5BAE57723549B8A331CD0E4D73A /* Products */,
+				12132A7BDAFEDBF33552D358D675D802 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93980E2A68A6206DD4497541BBF4B687 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				63DE9697DB7001388B4506BFA7FBE0EA /* DPDConstants.swift */,
+				42989FAD5E28E44E0042AC2441DC9301 /* DPDKeyboardListener.swift */,
+				87F9B4B4EF3DD64DA5CBD439895679F7 /* DPDUIView+Extension.swift */,
+				ACDAE404A02FF4EBE550B3153BF8E291 /* DropDown.swift */,
+				9C495FD370D8BDB3F5CFE8C16448DD10 /* DropDown+Appearance.swift */,
+				6B98517AAE5C8402966B29E502D6D40F /* DropDownCell.swift */,
+				DF23A31FC8711FB197D9CE601C9E2A50 /* Resources */,
+				F993B78C4CDF96D457A254AA02870ECD /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		B8298EF88190A4CA6A37011694A5C17B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93980E2A68A6206DD4497541BBF4B687 /* DropDown */,
+				6395993C45BA99DB6A55497C2CCBB0B7 /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF23A31FC8711FB197D9CE601C9E2A50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C4C83ADEB94A1BAF392E4B535D42AA9 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E973555308035F0CCF55E04103639675 /* Pods-accordion */ = {
+			isa = PBXGroup;
+			children = (
+				3094A2EF8F37C3F4E5C75CC3041D8480 /* Info.plist */,
+				7920C52B987CE1AC1F79C5F13B37C165 /* Pods-accordion.modulemap */,
+				2E1137C499A6CC1904988809A94149C7 /* Pods-accordion-acknowledgements.markdown */,
+				03AAAE7004E60368DE764FA23E0F43A0 /* Pods-accordion-acknowledgements.plist */,
+				1D5F430EA01C077C7B13BD96AC981B1C /* Pods-accordion-dummy.m */,
+				E14E5DBCA3854E37E53EF315B6DA1250 /* Pods-accordion-frameworks.sh */,
+				9D9828D1436F881067E6BD414C5AB122 /* Pods-accordion-resources.sh */,
+				94E650D07F429389D6DE6EB1D712E6D7 /* Pods-accordion-umbrella.h */,
+				6185803102326C0BF2B05F8D1312AE8C /* Pods-accordion.debug.xcconfig */,
+				69EE3BD3F00A5A7D93812366B26F2681 /* Pods-accordion.release.xcconfig */,
+			);
+			name = "Pods-accordion";
+			path = "Target Support Files/Pods-accordion";
+			sourceTree = "<group>";
+		};
+		F993B78C4CDF96D457A254AA02870ECD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0010DCF0E294FE60D9260A8C87DE6771 /* DropDown.modulemap */,
+				A5D29ABD4A7C137F3D82CC7FBD85D30C /* DropDown.xcconfig */,
+				D9147E49492EE6796687AEDE0409998A /* DropDown-dummy.m */,
+				49F7620345E3D4338FADCC9335E2F7BB /* DropDown-prefix.pch */,
+				5D1CDC0F887D23C9BCABCA9DDE612340 /* DropDown-umbrella.h */,
+				A56664D9A1320FA60BA728173F89265D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1904CD5E5CEA9226AFC355E19C3EB159 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7E74DF0C455B0BC43BFDD1D0163E64 /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40472CFF043FF05ACBC35FC7248ED3C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6960431A9BD9F6131247506D328494 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E514F8336159099704A61AFF8B9DE4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC592BEBBB4521BBCEF783EA16D9BFE /* Pods-accordion-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45143614893062803984DA50AB90C1D5 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				ED45CA897A4B81CB8204042001D7AEE8 /* Sources */,
+				3FE28484C632D94C9779E4E74AE0BD29 /* Frameworks */,
+				D7D924A57BC65B5D41E46B156A8DCF2B /* Resources */,
+				1904CD5E5CEA9226AFC355E19C3EB159 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 7E103EED42B0D1157DC462427CFBE6AB /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6957D3E66F8E6F72EC88BCAE74219791 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA828F56AD6F58341579383A5C5FF08 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				51494F01F80452F1279DD92F4E2D9F22 /* Sources */,
+				DE2E1D77FE081859FB796BC998F3959B /* Frameworks */,
+				40472CFF043FF05ACBC35FC7248ED3C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 3D4310EEC0C0BB350542527B965DF1A9 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB5EB400163EEE14D60E226AA0CFDC34 /* Pods-accordion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD2DBD9608D8506DD2E72B13501619F /* Build configuration list for PBXNativeTarget "Pods-accordion" */;
+			buildPhases = (
+				D90075EFADEA7BE526BDFE32F38FFA19 /* Sources */,
+				8D98BA38323A343989A5D6985F979F53 /* Frameworks */,
+				6E514F8336159099704A61AFF8B9DE4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CB6223E6E0E67BD89B6262E0AB9E00 /* PBXTargetDependency */,
+				4AA5DF18C9AAC335A3E4CDE303EC5E02 /* PBXTargetDependency */,
+			);
+			name = "Pods-accordion";
+			productName = "Pods-accordion";
+			productReference = B7F0406F072F765E3BA3C387A341CBF0 /* Pods_accordion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 36CAB5BAE57723549B8A331CD0E4D73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */,
+				BB5EB400163EEE14D60E226AA0CFDC34 /* Pods-accordion */,
+				6957D3E66F8E6F72EC88BCAE74219791 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D924A57BC65B5D41E46B156A8DCF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C293AEA575D6E5186739D1B07805F2 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51494F01F80452F1279DD92F4E2D9F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5BCFA2D1D298B7B887C1A055FBA37B /* AkiraTextField.swift in Sources */,
+				2366C723A4273EA1D9611C4C05D2E937 /* HoshiTextField.swift in Sources */,
+				ECFDCFFAFCDA7F7CE4CC47D1C26FAC96 /* IsaoTextField.swift in Sources */,
+				4C3964C74D3DCE78D48C7F3EF0D47387 /* JiroTextField.swift in Sources */,
+				E55BF7E6266CEE7D792BB520BB0664E5 /* KaedeTextField.swift in Sources */,
+				906399E4317BC6501F2DE30B980678CB /* MadokaTextField.swift in Sources */,
+				F088583D8C1DB258CEF56B56BB12A313 /* MinoruTextField.swift in Sources */,
+				435650581EB85555AFBF86C9B2097993 /* TextFieldEffects-dummy.m in Sources */,
+				7A6AB4B7D874484D456ACBC635DCADF4 /* TextFieldEffects.swift in Sources */,
+				16F1B33A5110E37D2BECA69CBF4DA5E6 /* YokoTextField.swift in Sources */,
+				0F94205BAD67CBFEEB1029A947EA26AB /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90075EFADEA7BE526BDFE32F38FFA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04074331FB4A3067AF5D02072E4F22BE /* Pods-accordion-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED45CA897A4B81CB8204042001D7AEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A812E7811821F66B3B7499F6F1B513BA /* DPDConstants.swift in Sources */,
+				9D0221E27E37CDA9DF26DD3CFA56D75B /* DPDKeyboardListener.swift in Sources */,
+				A401CF18D15DF246F40FAC4E8F06CBC7 /* DPDUIView+Extension.swift in Sources */,
+				442ADADA3215E1E5CA1557E708D4228C /* DropDown+Appearance.swift in Sources */,
+				AC6581D9387744158B44BE683403C3BC /* DropDown-dummy.m in Sources */,
+				02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */,
+				098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44CB6223E6E0E67BD89B6262E0AB9E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = 5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */;
+			targetProxy = 2D6C400B49784F1603502B1F6EF59D50 /* PBXContainerItemProxy */;
+		};
+		4AA5DF18C9AAC335A3E4CDE303EC5E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = 6957D3E66F8E6F72EC88BCAE74219791 /* TextFieldEffects */;
+			targetProxy = F00829C17C2BB5193FC621D2EFAC3945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0FC53A4D2BC3B2F7E97B85481D3D7417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757E7DF80771EC121D25ADF971BA40F6 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68747DA3B5AD267B155CBF653FDA5F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EE3BD3F00A5A7D93812366B26F2681 /* Pods-accordion.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-accordion/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accordion/Pods-accordion.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		782C551162F59C75C00C8DBDCC07C85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6185803102326C0BF2B05F8D1312AE8C /* Pods-accordion.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-accordion/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accordion/Pods-accordion.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A1A793254763290DA347BA462B5A2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D29ABD4A7C137F3D82CC7FBD85D30C /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B1CCDE2BA4E61239640EB864EF23193A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757E7DF80771EC121D25ADF971BA40F6 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B539DCDA9157A3D70680284A10384E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D29ABD4A7C137F3D82CC7FBD85D30C /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD2DBD9608D8506DD2E72B13501619F /* Build configuration list for PBXNativeTarget "Pods-accordion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782C551162F59C75C00C8DBDCC07C85E /* Debug */,
+				68747DA3B5AD267B155CBF653FDA5F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45143614893062803984DA50AB90C1D5 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B539DCDA9157A3D70680284A10384E1B /* Debug */,
+				8A1A793254763290DA347BA462B5A2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA828F56AD6F58341579383A5C5FF08 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1CCDE2BA4E61239640EB864EF23193A /* Debug */,
+				0FC53A4D2BC3B2F7E97B85481D3D7417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

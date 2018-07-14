@@ -1,0 +1,20 @@
+PODS:
+  - DropDown (2.3.1)
+  - TextFieldEffects (1.4.0)
+
+DEPENDENCIES:
+  - DropDown
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DropDown
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+
+PODFILE CHECKSUM: aa9e11c5f21de771d0ab75fcfc68722c854fdc2a
+
+COCOAPODS: 1.5.3

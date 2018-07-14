@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="m3S-fQ-0ND" customClass="CollectionView" customModule="accordion" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="501" height="186"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2q-sb-LaG">
+                    <rect key="frame" x="0.0" y="0.0" width="501" height="186"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDy-TJ-LAC">
+                            <rect key="frame" x="245" y="8" width="10" height="50"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="0Ml-6Q-baZ"/>
+                                <constraint firstAttribute="width" constant="10" id="ici-1F-pJk"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JcC-e6-Xa5">
+                            <rect key="frame" x="8" y="8" width="229" height="170"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9DF-7Q-LOx">
+                                    <rect key="frame" x="164" y="59" width="45" height="45"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="45" id="8I3-DC-0MY"/>
+                                        <constraint firstAttribute="height" constant="45" id="fig-W1-eui"/>
+                                    </constraints>
+                                    <state key="normal" backgroundImage="annuler"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="9DF-7Q-LOx" firstAttribute="top" secondItem="JcC-e6-Xa5" secondAttribute="top" constant="59" id="bzt-up-RVG"/>
+                                <constraint firstAttribute="trailing" secondItem="9DF-7Q-LOx" secondAttribute="trailing" constant="20" id="zon-rI-axS"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kBG-wL-MOm">
+                            <rect key="frame" x="263" y="8" width="230" height="170"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqI-Ob-rmk">
+                                    <rect key="frame" x="20" y="59" width="45" height="45"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="45" id="e0T-Ny-Wxi"/>
+                                        <constraint firstAttribute="height" constant="45" id="phi-cx-hju"/>
+                                    </constraints>
+                                    <state key="normal" backgroundImage="valider"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="wqI-Ob-rmk" firstAttribute="leading" secondItem="kBG-wL-MOm" secondAttribute="leading" constant="20" id="gWn-IS-jBf"/>
+                                <constraint firstItem="wqI-Ob-rmk" firstAttribute="top" secondItem="kBG-wL-MOm" secondAttribute="top" constant="59" id="uQU-Kn-akr"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3g-x9-Rok">
+                            <rect key="frame" x="25" y="8" width="46" height="30"/>
+                            <state key="normal" title="Saison">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="saisonTouch:" destination="m3S-fQ-0ND" eventType="touchDown" id="efJ-ok-0Ry"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQE-TZ-ZWA">
+                            <rect key="frame" x="280" y="8" width="44" height="30"/>
+                            <state key="normal" title="Année">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="anneeTouch:" destination="m3S-fQ-0ND" eventType="touchDown" id="AQJ-QC-WRs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="kBG-wL-MOm" secondAttribute="trailing" constant="8" id="9CW-xy-UCl"/>
+                        <constraint firstAttribute="trailing" secondItem="kBG-wL-MOm" secondAttribute="trailing" constant="8" id="ACn-Mk-Il8"/>
+                        <constraint firstAttribute="bottom" secondItem="kBG-wL-MOm" secondAttribute="bottom" constant="8" id="AuA-hX-Ayy"/>
+                        <constraint firstAttribute="bottom" secondItem="kBG-wL-MOm" secondAttribute="bottom" constant="8" id="Ejh-IN-dYl"/>
+                        <constraint firstItem="JcC-e6-Xa5" firstAttribute="leading" secondItem="H2q-sb-LaG" secondAttribute="leading" constant="8" id="G41-zK-jI4"/>
+                        <constraint firstItem="FDy-TJ-LAC" firstAttribute="leading" secondItem="JcC-e6-Xa5" secondAttribute="trailing" constant="8" id="Pma-nk-6TN"/>
+                        <constraint firstItem="JcC-e6-Xa5" firstAttribute="top" secondItem="H2q-sb-LaG" secondAttribute="top" constant="8" id="RvG-L8-oeO"/>
+                        <constraint firstItem="kBG-wL-MOm" firstAttribute="leading" secondItem="FDy-TJ-LAC" secondAttribute="trailing" constant="8" id="Tu9-j2-PMd"/>
+                        <constraint firstItem="M3g-x9-Rok" firstAttribute="top" secondItem="H2q-sb-LaG" secondAttribute="top" constant="8" id="WMq-Ur-xwS"/>
+                        <constraint firstItem="M3g-x9-Rok" firstAttribute="leading" secondItem="H2q-sb-LaG" secondAttribute="leading" constant="25" id="XuO-bA-8SN"/>
+                        <constraint firstItem="XQE-TZ-ZWA" firstAttribute="top" secondItem="H2q-sb-LaG" secondAttribute="top" constant="8" id="YbJ-zt-pfW"/>
+                        <constraint firstAttribute="bottom" secondItem="JcC-e6-Xa5" secondAttribute="bottom" constant="8" id="ZR5-dF-8jk"/>
+                        <constraint firstAttribute="bottom" secondItem="JcC-e6-Xa5" secondAttribute="bottom" constant="8" id="cju-KW-DKh"/>
+                        <constraint firstItem="kBG-wL-MOm" firstAttribute="top" secondItem="H2q-sb-LaG" secondAttribute="top" constant="8" id="cuq-sa-4kJ"/>
+                        <constraint firstItem="XQE-TZ-ZWA" firstAttribute="leading" secondItem="FDy-TJ-LAC" secondAttribute="trailing" constant="25" id="f4b-Wt-8ey"/>
+                        <constraint firstItem="JcC-e6-Xa5" firstAttribute="leading" secondItem="H2q-sb-LaG" secondAttribute="leading" constant="8" id="gjo-9h-ixf"/>
+                        <constraint firstItem="FDy-TJ-LAC" firstAttribute="top" secondItem="H2q-sb-LaG" secondAttribute="top" constant="8" id="mxR-H8-cVp"/>
+                        <constraint firstItem="FDy-TJ-LAC" firstAttribute="centerX" secondItem="H2q-sb-LaG" secondAttribute="centerX" id="vmW-YG-ehu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="akE-l3-I8i" firstAttribute="bottom" secondItem="H2q-sb-LaG" secondAttribute="bottom" id="7Vs-Id-j4A"/>
+                <constraint firstItem="H2q-sb-LaG" firstAttribute="leading" secondItem="akE-l3-I8i" secondAttribute="leading" id="Hq9-uc-Psa"/>
+                <constraint firstItem="H2q-sb-LaG" firstAttribute="top" secondItem="akE-l3-I8i" secondAttribute="top" id="T5d-s4-pQU"/>
+                <constraint firstItem="akE-l3-I8i" firstAttribute="trailing" secondItem="H2q-sb-LaG" secondAttribute="trailing" id="ajE-54-KTT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="akE-l3-I8i"/>
+            <connections>
+                <outlet property="anneeBtn" destination="XQE-TZ-ZWA" id="CYA-Ki-dDD"/>
+                <outlet property="anneeView" destination="kBG-wL-MOm" id="09q-x7-NMk"/>
+                <outlet property="saisonBtn" destination="M3g-x9-Rok" id="vdL-t1-EHX"/>
+                <outlet property="saisonView" destination="JcC-e6-Xa5" id="vEp-yM-yLt"/>
+            </connections>
+            <point key="canvasLocation" x="295.5" y="-368"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="annuler" width="60" height="60"/>
+        <image name="valider" width="60" height="60"/>
+    </resources>
+</document>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MenuController" customModule="accordion" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="549" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oqc-8f-PrK">
+                    <rect key="frame" x="0.0" y="0.0" width="219" height="65"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETAPE 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w7T-PE-cZH">
+                            <rect key="frame" x="78.5" y="22" width="62" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="0.2636451198630137" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="w7T-PE-cZH" firstAttribute="centerY" secondItem="oqc-8f-PrK" secondAttribute="centerY" id="HeP-V1-usB"/>
+                        <constraint firstItem="w7T-PE-cZH" firstAttribute="centerX" secondItem="oqc-8f-PrK" secondAttribute="centerX" id="O4l-kj-7Ng"/>
+                        <constraint firstAttribute="width" constant="219" id="c5I-fr-Yfs"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ARB-9y-B54">
+                    <rect key="frame" x="219" y="0.0" width="330" height="65"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5Z-NQ-UR6">
+                            <rect key="frame" x="135" y="17" width="60" height="30"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                            <state key="normal" title="VALIDER">
+                                <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstItem="P5Z-NQ-UR6" firstAttribute="centerX" secondItem="ARB-9y-B54" secondAttribute="centerX" id="0If-Yc-82N"/>
+                        <constraint firstItem="P5Z-NQ-UR6" firstAttribute="centerY" secondItem="ARB-9y-B54" secondAttribute="centerY" id="ear-P3-bke"/>
+                        <constraint firstAttribute="width" constant="330" id="gEv-kq-Af7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oqc-8f-PrK" firstAttribute="bottom" secondItem="ARB-9y-B54" secondAttribute="bottom" id="1B3-r1-A3R"/>
+                <constraint firstItem="ARB-9y-B54" firstAttribute="leading" secondItem="oqc-8f-PrK" secondAttribute="trailing" id="3Rp-of-dri"/>
+                <constraint firstAttribute="trailing" secondItem="ARB-9y-B54" secondAttribute="trailing" id="5ur-oo-14X"/>
+                <constraint firstItem="oqc-8f-PrK" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="9U6-FM-Iac"/>
+                <constraint firstItem="oqc-8f-PrK" firstAttribute="top" secondItem="ARB-9y-B54" secondAttribute="top" id="M1M-Wh-tgd"/>
+                <constraint firstItem="oqc-8f-PrK" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="lSu-IE-YpK"/>
+                <constraint firstItem="oqc-8f-PrK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="q8g-Ki-myS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="text" destination="w7T-PE-cZH" id="IHo-RU-Eq8"/>
+                <outlet property="validateBtn" destination="P5Z-NQ-UR6" id="qke-et-1rl"/>
+            </connections>
+            <point key="canvasLocation" x="111.5" y="-248.5"/>
+        </view>
+    </objects>
+</document>

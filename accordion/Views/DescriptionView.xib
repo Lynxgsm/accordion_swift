@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Cvg-Yd-e0s" customClass="DescriptionView" customModule="accordion" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="798" height="201"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GJq-Nt-PqY">
+                    <rect key="frame" x="0.0" y="0.0" width="798" height="201"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Md5-se-olj">
+                            <rect key="frame" x="8" y="15" width="782" height="95"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="95" id="QtR-g3-RrB"/>
+                            </constraints>
+                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPB-Mu-DdZ">
+                            <rect key="frame" x="125" y="125" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="6Wf-x7-pZb"/>
+                                <constraint firstAttribute="width" constant="45" id="71j-gk-TRm"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="annuler"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSe-RP-8fb">
+                            <rect key="frame" x="628" y="125" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="eF9-Yw-ge6"/>
+                                <constraint firstAttribute="height" constant="45" id="nXd-2I-DLD"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="valider"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wSe-RP-8fb" secondAttribute="trailing" constant="125" id="69b-dX-TaE"/>
+                        <constraint firstItem="bPB-Mu-DdZ" firstAttribute="leading" secondItem="GJq-Nt-PqY" secondAttribute="leading" constant="125" id="DLy-p2-FHh"/>
+                        <constraint firstItem="Md5-se-olj" firstAttribute="top" secondItem="GJq-Nt-PqY" secondAttribute="top" constant="15" id="TGa-jq-Woa"/>
+                        <constraint firstAttribute="trailing" secondItem="Md5-se-olj" secondAttribute="trailing" constant="8" id="VdZ-db-MWX"/>
+                        <constraint firstItem="wSe-RP-8fb" firstAttribute="top" secondItem="Md5-se-olj" secondAttribute="bottom" constant="15" id="ajU-JP-Ex2"/>
+                        <constraint firstItem="bPB-Mu-DdZ" firstAttribute="top" secondItem="Md5-se-olj" secondAttribute="bottom" constant="15" id="btP-hO-NUi"/>
+                        <constraint firstItem="Md5-se-olj" firstAttribute="leading" secondItem="GJq-Nt-PqY" secondAttribute="leading" constant="8" id="wBp-0L-LKL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GJq-Nt-PqY" firstAttribute="centerX" secondItem="Cvg-Yd-e0s" secondAttribute="centerX" id="HdG-d5-5jj"/>
+                <constraint firstItem="GJq-Nt-PqY" firstAttribute="trailing" secondItem="mD8-XU-Y8B" secondAttribute="trailing" id="XVP-oa-4jT"/>
+                <constraint firstItem="GJq-Nt-PqY" firstAttribute="centerY" secondItem="Cvg-Yd-e0s" secondAttribute="centerY" id="fRy-Al-FFo"/>
+                <constraint firstItem="GJq-Nt-PqY" firstAttribute="top" secondItem="mD8-XU-Y8B" secondAttribute="top" id="jwx-PB-set"/>
+                <constraint firstItem="GJq-Nt-PqY" firstAttribute="leading" secondItem="mD8-XU-Y8B" secondAttribute="leading" id="ojb-WO-cOK"/>
+                <constraint firstItem="GJq-Nt-PqY" firstAttribute="bottom" secondItem="mD8-XU-Y8B" secondAttribute="bottom" id="wtG-pS-WjB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="mD8-XU-Y8B"/>
+            <connections>
+                <outlet property="textView" destination="Md5-se-olj" id="Htb-Hy-Nfv"/>
+            </connections>
+            <point key="canvasLocation" x="49" y="-180.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="annuler" width="60" height="60"/>
+        <image name="valider" width="60" height="60"/>
+    </resources>
+</document>
